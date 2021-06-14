@@ -1,0 +1,59 @@
+.total {
+  background: rgb(252, 237, 211);
+  background: linear-gradient(
+    2deg,
+    rgba(252, 237, 211, 1) 0%,
+    rgba(253, 246, 233, 1) 25%,
+    rgba(250, 250, 250, 1) 100%
+  );
+  min-height: 85vh;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.container {
+  text-align: center;
+  margin-top: 6rem;
+  margin-left: 40rem;
+}
+.btn {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: auto;
+  flex: 20%;
+  position: fixed;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(11, 82, 100, 0.986);
+  color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dbdbdb93;
+}
+
+tr:hover {
+  background-color: rgb(194, 194, 194);
+}
